@@ -21,15 +21,10 @@ This project shows how to build a custom force-feedback wheel using an MKS ODriv
   - https://github.com/Ultrawipf/OpenFFBoard/releases/download/v1.17.0/OpenFFBoard-Configurator-windows-latest-py3.12.zip
 
 ## Step 1: Assemble the Hardware
-1. Mount the 5056 140kv BLDC motor securely inside the wheel base.
-<img width="2744" height="1380" alt="image" src="https://github.com/user-attachments/assets/3c15b8d9-0c66-4ff3-850e-58b2afa79467" />
-2. Attach the motor shaft to the steering wheel hub using a compatible coupler.
-3. Connect the motor phase wires to the MKS ODrive Mini v1.0 motor outputs.
-4. Connect the ODrive Mini power input to your battery or PSU, respecting voltage and current limits.
-5. Wire the F407VGxx dev board and the WCMCU-2551 CAN module together if using CAN communication.
-<img width="620" height="629" alt="wiring-guide" src="https://github.com/user-attachments/assets/2d25693a-dcdb-48b3-aa9c-c1dd870f200c" />
-6. Connect the F407 board to the wheel controls, pedals, and any sensors you are using.
-7. Confirm all connectors are secure and all grounds are common.
+1. Assembly hardware:
+    - <img width="2744" height="1380" alt="image" src="https://github.com/user-attachments/assets/3c15b8d9-0c66-4ff3-850e-58b2afa79467" />
+2. Wire F407 and odrive based on image below:
+    - <img width="620" height="629" alt="wiring-guide" src="https://github.com/user-attachments/assets/2d25693a-dcdb-48b3-aa9c-c1dd870f200c" />
 
 ## Step 2: Flash Firmware
 1. Download and unzip the OpenFFBoard F407 firmware package.
