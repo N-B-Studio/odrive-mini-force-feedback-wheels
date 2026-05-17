@@ -2,7 +2,7 @@
 
 ## Overview
 This project shows how to build a custom force-feedback wheel using an MKS ODrive Mini v1.0, a BLDC motor, and an OpenFFBoard-compatible F407 controller. The instructions below cover hardware, firmware, GUI tools, and configuration.
-<img width="3066" height="1657" alt="image" src="https://github.com/user-attachments/assets/b235c63d-2e9f-42a3-b04c-4ed393c17c79" />
+<img width="2847" height="1613" alt="image" src="https://github.com/user-attachments/assets/ce981abf-3224-47fe-a21f-5df691fa7e76" />
 
 ## Required Components
 - 5056 140kv BLDC motor
