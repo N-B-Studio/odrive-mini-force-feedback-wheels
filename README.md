@@ -11,7 +11,6 @@ This project shows how to build a custom force-feedback wheel using an MKS ODriv
 - WCMCU-2551 CAN module
 - 3D printed steering wheel shell
   - https://makerworld.com/en/models/1313111-g29-g920-g923-logitech-mod-steering-wheel?from=search#profileId-1347733b
-<img width="620" height="629" alt="wiring-guide" src="https://github.com/user-attachments/assets/2d25693a-dcdb-48b3-aa9c-c1dd870f200c" />
 
 ## Firmware and Tools
 - OpenFFBoard F407 firmware
@@ -23,13 +22,14 @@ This project shows how to build a custom force-feedback wheel using an MKS ODriv
 
 ## Step 1: Assemble the Hardware
 1. Mount the 5056 140kv BLDC motor securely inside the wheel base.
-2. <img width="2744" height="1380" alt="image" src="https://github.com/user-attachments/assets/3c15b8d9-0c66-4ff3-850e-58b2afa79467" />
-3. Attach the motor shaft to the steering wheel hub using a compatible coupler.
-4. Connect the motor phase wires to the MKS ODrive Mini v1.0 motor outputs.
-5. Connect the ODrive Mini power input to your battery or PSU, respecting voltage and current limits.
-6. Wire the F407VGxx dev board and the WCMCU-2551 CAN module together if using CAN communication.
-7. Connect the F407 board to the wheel controls, pedals, and any sensors you are using.
-8. Confirm all connectors are secure and all grounds are common.
+<img width="2744" height="1380" alt="image" src="https://github.com/user-attachments/assets/3c15b8d9-0c66-4ff3-850e-58b2afa79467" />
+2. Attach the motor shaft to the steering wheel hub using a compatible coupler.
+3. Connect the motor phase wires to the MKS ODrive Mini v1.0 motor outputs.
+4. Connect the ODrive Mini power input to your battery or PSU, respecting voltage and current limits.
+5. Wire the F407VGxx dev board and the WCMCU-2551 CAN module together if using CAN communication.
+<img width="620" height="629" alt="wiring-guide" src="https://github.com/user-attachments/assets/2d25693a-dcdb-48b3-aa9c-c1dd870f200c" />
+6. Connect the F407 board to the wheel controls, pedals, and any sensors you are using.
+7. Confirm all connectors are secure and all grounds are common.
 <img width="3066" height="1657" alt="image" src="https://github.com/user-attachments/assets/b235c63d-2e9f-42a3-b04c-4ed393c17c79" />
 
 ## Step 2: Flash Firmware
